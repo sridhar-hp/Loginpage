@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script> src="login.js"</script>
+</head>
+<body>
+    <font> | HOME | ABOUT | CONTACT | </font>
+ <center>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="baground">
+        <img  class="img"  src="loginlogo.png" alt="jmc logo">
+        <p id="output">MY JAMAL MY PRIDE</p>
+        <div class="usearname">
+        <input id="user" type="text" placeholder="usearname">
+        </div>
+        <br>
+        <div class="pasword">
+            <input id="pass" type="text"  placeholder="pasword">    
+        </div>
+       <div class="login">
+            <button onclick="logein()"> LOGIN </button>
+        </div>
+    </div>
+    <script>
+       // var name = document.getElementsById("user")//linking
+       // var pin = document.getElementsById("pass") //linking
+        var h1 = document.getElementById("output")
+        console.log(h1.textContent)
+       // var pw = Number(pin.value)
+        function logein()
+        {
+            h1.textContent="login successfully"
+        }
+    </script>
+</center>
+
+
+</body>
+</html>
